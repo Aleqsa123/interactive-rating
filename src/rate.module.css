@@ -50,7 +50,7 @@ li {
     font-weight: 400;
     font-size: 15px;
     color: hsl(217, 12%, 63%);
-    background: hsla(216, 12%, 54%, 0.2);
+
     padding: 15px;
     border-radius: 50%;
     cursor: pointer;
@@ -71,6 +71,19 @@ button {
 }
 
 @media screen and (min-width: 1440px) {
+  
+    li:hover {
+        color: hsl(0, 0%, 100%);
+        background: hsl(217, 12%, 63%);
+    }
 
+    li:active {
+        color: hsl(0, 0%, 100%);
+        background:  hsl(25, 97%, 53%);
+    }
     
+    button:active {
+        background-color: hsl(0, 0%, 100%);
+        color: hsl(25, 97%, 53%);
+    }
 }
