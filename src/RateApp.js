@@ -26,6 +26,7 @@ const RateApp = () => {
             <li className='number5' style={{background: style.bgColor, color: style.txtColor}} onClick={changeStyle}>5</li>
         </ul>
         <button type="submit">S u b m i t</button>
+
       </div>
     );
   }
