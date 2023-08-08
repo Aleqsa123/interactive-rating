@@ -8,6 +8,8 @@
     padding: 40px;
     background: hsl(213, 19%, 18%);
     margin: 0 auto;
+    display: grid;
+    align-items: center;
 }
 
 .responseh1 {
@@ -20,21 +22,24 @@
 }
 
 .icon {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 130px;
     background: none;
     border-radius: 0px;
+    margin: 0 auto;
 }
 
 .selectp {
+    width: 180px;
     font-weight: 400;
     font-size: 15px;
     text-align: center;
     color: hsl(25, 97%, 53%);
-    margin-right: 0px;
+    margin: 0 auto;
     margin-top: 20px;
     background: hsla(216, 12%, 54%, 0.2);
     border-radius: 30px;
+    padding: 5px;
 }
 
 .responsep {

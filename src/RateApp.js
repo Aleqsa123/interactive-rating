@@ -1,7 +1,7 @@
 import styles from './rate.module.css';
 import { useState } from 'react';
 
-const RateApp = () => {
+function RateApp() {
   const [liState, changeLiState] = useState({
     activeLi: null,
     lies: [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5}]

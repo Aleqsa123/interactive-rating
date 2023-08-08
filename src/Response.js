@@ -1,6 +1,6 @@
 import styles from "./response.module.css";
 
-const Response = () => {
+function Response(){
     return (
       <div className={styles.maindiv1}>
         <img className={styles.icon} src="./images/illustration-thank-you.svg" alt="checkout icon"/>
